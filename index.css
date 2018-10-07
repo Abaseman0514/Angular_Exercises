@@ -1,0 +1,20 @@
+h2 {
+ color: green;
+}
+
+.present {
+ color: red;
+}
+
+.family {
+ color: purple;
+}
+
+.name, .relation, .age {
+ display: inline-block;
+ font-weight: bold;
+}
+
+p {
+ display: inline;
+}

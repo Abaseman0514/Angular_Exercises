@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width" , initial-scale="1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie-edge">
+  <title>Angular with components</title>
+  <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+  <main>This won't do anything</main>
+  <!-- ^^^^this is calling the custom element from main.js^^^^ -->
+
+
+
+  <!-- <body> ng-controller="TestController as $ctrl">
+   ^^^^this is telling the html the $ctrl is the functionality of TestController^^^
+  <h1> {{$ctrl.myName}} </h1>
+  <input placeholder="Please enter your name" type="text" ng-model="$ctrl.myName"/>
+  
+  
+   <label>Birth Year:</label>
+   <input placeholder="What year were you born?" type="text" ng-model="year"/>
+   <label> Age: </label>
+   <input placeholder="What is your age?" type="text" ng-model="age"/>
+   <h3> <span ng-if="year">{{$ctrl.myName}}, you are {{2018 - year + " years old."}} This site calculated your age correctly!  {{(2018 - year) == age}}</span></h3>
+   
+   <h3 ng-if="year">You were born in {{year}} and are {{2018 - year}} years old. You were born in the 20th century! {{ year < 2000}}</h3> -->
+
+  <!-- ng-if CONDITIONALLY RENDERS html -->
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.4/angular.min.js"></script>
+
+  <script src="index.js"></script>
+  <script src="components/main/main.js"></script>
+  <script src="components/main/main-controller.js"></script>
+
+  <!-- <script src="test-controller.js"></script> -->
+  <!-- this also needs to be added under the Angular link once it's registered -->
+</body>
+
+</html>
